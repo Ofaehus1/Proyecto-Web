@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+footer {
+  margin-top: 100%;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #29335c;
+  color: #f4f4f4;
+}
+@media (max-width: 767px) {
+  /* Estilos específicos para pantallas pequeñas */
+}
+
+/* Estilos para pantallas de tamaño mediano (tablet) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos específicos para pantallas medianas */
+}
+
+/* Estilos para pantallas de tamaño grande (desktop) */
+@media (min-width: 1024px) {
+  /* Estilos específicos para pantallas grandes */
+}
