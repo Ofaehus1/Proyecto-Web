@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/main.css";
+
 function NavBar() {
   const navRef = useRef();
   const showNavar = () => {
@@ -11,8 +12,8 @@ function NavBar() {
       <h3>Taller M&A</h3>
       <nav ref={navRef}>
         <a href="/#">Inicio</a>
-        <a href="/#">Productos</a>
-        <a href="/#">Locales</a>
+        <a href="/#">Servicios</a>
+        <a href="/#">Nuestras Sedes</a>
         <a href="/#">Blog</a>
         <a href="/#">Nosotros</a>
         <a href="/#">Contacto</a>
