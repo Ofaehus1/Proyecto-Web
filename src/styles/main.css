@@ -24,13 +24,24 @@ header {
   color: var(--textColor);
 }
 
-nav a {
+nav li {
   margin: 0 1rem;
   color: var(--textColor);
   text-decoration: none;
+  list-style: none;
+  float: left;
+  position: relative;
+
+  color: var(--textColor);
 }
 
-nav a:hover {
+.link {
+  text-decoration: none;
+  color: white;
+  right: 50%;
+}
+
+nav .link:hover {
   color: var(--secondaryColor);
 }
 
@@ -83,7 +94,7 @@ nav {
     right: 2rem;
   }
 
-  nav a {
+  nav .link {
     font-size: 1.5rem;
   }
 }
